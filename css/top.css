@@ -1,0 +1,15 @@
+@charset "utf-8";
+.top_banner_outline{width: 1220px; height: inherit; margin: 0 auto;
+position: relative;
+}
+
+.top_banner_outline > img{
+    object-fit: cover; 
+    position: absolute;
+} 
+
+.top_banner_outline > span{ 
+    width: 33px; height: 33px; position: absolute; 
+    right: 40px; top: 0; bottom: 0; margin: auto;
+    cursor: pointer;
+}

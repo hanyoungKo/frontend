@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*product_title*/
+.product_title{
+     width: 1220px; height: auto; margin: 0 auto;
+     padding-top: 20px; box-sizing: border-box;
+     font-family: 'Noto Sans KR', sans-serif;
+}
+.product_title>ul{
+     width: inherit; height: 45px;
+     margin-bottom: 20px;
+}
+
+.product_title>ul>li:nth-of-type(1) {
+    width: inherit; font-size: 14px; color:#888;  
+    text-align: center;
+}
+.product_title>ul>li:nth-of-type(2) {
+    width: inherit; font-size: 21px; color:#000;
+    text-align: center;
+}
+
+/*product_hash*/
+
+.product_hash{ width: 1220px; height: 40px; margin: 0 auto; margin-bottom: 20px;}
+.product_hash> ol{
+    width: inherit; height: inherit;  
+    font-family: 'Noto Sans KR', sans-serif; font-size: 13px;
+    text-align: center;  line-height: 40px; 
+    
+}
+.product_hash> ol> li{width: 200px; height: 40px; display: inline-block;
+    border: 2px solid #000; box-sizing: border-box;
+    margin-right: 22px; 
+    
+}
+.product_hash> ol> li:last-of-type{margin-right: 0; display: inline-table; 
+line-height: 18px; vertical-align: 11px;}
+
+
+/*product_list*/
+
+.product_list{
+    width: 1220px; height: auto; box-sizing: border-box;
+    margin: 0 auto; padding-left: 12px;
+}
+.product_list > ul{width: inherit; height: inherit;}
+
+.product_list > ul >li{
+    width: 290px; height: 290px;
+    float:left; margin:6px;
+    position: relative;
+}
+
+.product_list > ul >li> span{
+    position: absolute; width: inherit; height: inherit;
+    z-index: 0;  
+}
+
+.product_list > ul >li> label{
+    width: inherit; height: inherit; position: absolute; z-index: 1; 
+    background-color: #fff; opacity: 0.7; display: none;
+}
+
+.product_list > ul >li> ol{
+    width: inherit; height: auto; position: absolute; z-index: 2;
+    font-family: 'Noto Sans KR', sans-serif; display: none;
+    
+}
+.product_list > ul >li> ol >li{
+    position: relative;  
+    width: inherit; text-align: center; 
+}
+.product_list > ul >li> ol >li:nth-of-type(1){
+    font-size: 16px;
+    font-weight: 700;
+    top: 75px;
+    
+}
+.product_list > ul >li> ol >li:nth-of-type(2){
+    font-size: 14px;
+    top: 85px;
+}
+.product_list > ul >li> ol >li:nth-of-type(3){
+    font-size: 15px;
+    top: 90px;
+   
+}
+.product_list > ul >li> ol >li:nth-of-type(4){
+    font-size: 15px;
+    top: 95px;
+    
+}

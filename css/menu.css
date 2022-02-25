@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*menu_top*/
+.menu_top{ width: auto; height: 40px; border-bottom: 1px solid #ededed;
+    box-sizing: border-box;}
+    
+.menu_top > span {width: 1220px; height: inherit;
+        position: relative; margin: 0 auto;
+    }
+    
+.menu_top >span >ul{position: absolute; left: 0; height: inherit;}
+.menu_top >span >ol{position: absolute; right: 0; height: inherit;}
+    
+.menu_top >span >ul >li, .menu_top >span >ol >li {
+        float: left; width: 70px; height: inherit; box-sizing: border-box; 
+        line-height: 40px; text-align: center; font-size: 12px;
+        color: #777; cursor: pointer;
+}
+.menu_top >span >ul >li:nth-child(even), .menu_top >span >ol >li:nth-child(even){
+        width: 1px;
+}
+    
+/*menu_middle*/
+.menu_middle{ width: auto; height: 150px; border-bottom: 1px solid #ededed;
+        box-sizing: border-box;}
+.menu_middle> span{
+    width: 1220px; height: inherit;
+    position: relative; margin: 0 auto;
+}    
+.menu_middle> span> label:nth-of-type(1){
+    width: 342px; height: 65px; position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0; margin: auto;
+    cursor: pointer;
+}
+.menu_middle> span> label:nth-of-type(2){
+    width: 25px; height: 25px; position: absolute;
+    top: 0; bottom: 0; right: 105px;  margin: auto;
+    cursor: pointer;
+}
+.menu_middle> span> label:nth-of-type(3){
+    width: 25px; height: 25px; position: absolute;
+    top: 0; bottom: 0; right: 50px; margin: auto;
+    cursor: pointer;
+    
+}
+
+.menu_middle> span> label:nth-of-type(2)> img, .menu_middle> span> label:nth-of-type(3)> img{
+    width: 25px; height: 25px;
+    object-fit: contain;
+}
+
+/*menu_bottom*/
+.menu_bottom{ width: auto; height: 40px;  border-bottom: 1px solid #ededed;
+        box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+.menu_bottom> span{
+        width: 1220px; height: inherit;
+        position: relative; margin: 0 auto;
+} 
+
+.l_menu{position: absolute; left: 0; height: inherit;}
+.r_menu{position: absolute; right: 0; height: inherit;}
+
+.l_menu> li, .r_menu>li{display: inline-block; height: inherit; 
+    line-height: 40px; font-size: 15px; margin-right: 15px;
+    position: relative; cursor: pointer;
+}
+.l_menu> li:last-of-type , .r_menu>li:last-of-type{margin-right: 0;}
+
+.l_menu> li> ol, .r_menu> li> ul{width: 120px; height: auto;
+    position: absolute; font-size: 12px; 
+    display: none; z-index: 10;
+}
+.l_menu> li> ol> li, .r_menu> li> ul> li{
+    width: inherit; height: 25px; 
+    line-height: 25px; cursor: pointer;
+   
+}

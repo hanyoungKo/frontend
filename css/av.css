@@ -1,0 +1,28 @@
+@charset "utf-8";
+.av_main{
+    width: 1220px; height: inherit; margin: 0 auto;
+    position: relative; font-family: 'Noto Sans KR', sans-serif;
+}
+.av_main>span{
+    width: inherit; height:  inherit; 
+    position: absolute;
+}
+.av_main>ul{
+    width: inherit; height: inherit; position: relative;
+    padding: 20px; box-sizing: border-box; 
+}
+.av_main>ul>li{
+    position: absolute;
+}
+.av_main>ul>li:nth-of-type(1){
+    font-size: 14px; font-weight: 700;
+    
+}
+.av_main>ul>li:nth-of-type(2){
+    font-size: 26px; font-weight: 700;
+    top: 44px;
+}
+.av_main>ul>li:nth-of-type(3){
+    font-size: 14px; color: #aaa;
+    top: 131px;
+}
